@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80, 122, 141);
+}
+
+div.contenedor {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    min-height: 100vh;
+}
+
+div.contenedor div.carousel {
+    width: 90%;
+    position: relative;
+    border: 5px solid black;
+}
+
+div.carousel img {
+    width: 100%;
+    vertical-align: top;
+}
+
+div.carousel button.material-symbols-outlined {
+    width: 100px;
+    padding: 10px 0px;
+    color: 0056b3;
+    border: none;
+    background: none;
+    font-size: 35px;
+    opacity: .9;
+}
+
+div.carousel button.material-symbols-outlined:hover {
+    color: white;
+    opacity: 1;
+}
+
+div.carousel .right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+div.carousel .left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+
+div.carousel div.contenedorBotones {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+}
+
+div.contenedorBotones div.centrarBotones {
+    width: 12%;
+    margin: 5px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.centrarBotones button {
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color: black;
+}
+
+div.centrarBotones button.activo {
+    background-color: white;
+}
