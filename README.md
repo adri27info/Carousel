@@ -1,6 +1,6 @@
 # Carousel
 
-This is a js based application scrolling images from right to left through an image carousel.
+This is a js project based in scrolling images from right to left through an image carousel.
 
 ![Image text](img/app-preview.png)
 
