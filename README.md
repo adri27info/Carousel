@@ -12,7 +12,7 @@ This is a js project based in scrolling images from right to left through an ima
 
 ## Description
 
-This is a js based application scrolling images from right to left through an image carousel. Each time an image is passed, the lower buttons inside the carousel will be updated, changing their background color.
+This is a js project based in scrolling images from right to left through an image carousel. Each time an image is passed, the lower buttons inside the carousel will be updated, changing their background color.
 
 ## Technologies
 
